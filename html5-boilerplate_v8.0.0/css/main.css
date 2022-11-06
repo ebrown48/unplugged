@@ -89,6 +89,9 @@ textarea {
 
   /* General Styles */
 
+  /*background: url('img/image.jpg') center no-repeat;
+    background-size: cover;*/
+
   html {
     font-size: 16px;
   }
@@ -96,7 +99,7 @@ textarea {
   body {
     font-family: 'Open Sans', sans-serif;
     font-size: 1em;
-    color: #e2e3ed
+    color: #e2e3ed;
     text-align: left;
   }
 
@@ -159,6 +162,14 @@ textarea {
     margin: 0;
    }
 
+   header figure {
+     width: 60%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-flow: row wrap;
+   }
+
    .header-divider {
     background: #3a3a3a;
      width: 100%;
@@ -185,17 +196,6 @@ textarea {
    header nav ul li {
      font-size: 1.125em;
    }
-
-   /*----photo fill color-----*/
-
-   .hero-area {
-    background-color: red;
-    font-weight: bold;
-   }
-   .features {
-    background-color: red;
-   }
-   /*-----photo fill color-----*/
 
    footer {
      text-align: center;
@@ -240,6 +240,8 @@ textarea {
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
+    background: url('img/top-hero-image.jpg') center no-repeat;
+    background-size: cover;
   }
 
    /* Aside */
@@ -284,6 +286,17 @@ textarea {
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
+    background: url('img/features.jpg') center no-repeat;
+    background-size: cover;
+  } 
+
+  .features {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    background: url('../img/features.jpg') center no-repeat;
+    background-size: cover;
+    background-color: #333;
   }
 
   .features h2 {
@@ -315,6 +328,9 @@ textarea {
     justify-content: center;
     flex-flow: row wrap;
     background-color: #2a423a;
+    background: url('../img/reviews.jpg') center no-repeat;
+    background-size: cover;
+    background-color: #333;
   }
 
   .reviews h2 {
