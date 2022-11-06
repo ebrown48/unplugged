@@ -130,6 +130,14 @@ textarea {
     line-height: 1.285;
   }
 
+  img {
+    width: 100%;
+  }
+
+  figure {
+    margin: 0;
+  }
+
   address {
     font-style: normal;
   }
@@ -240,8 +248,17 @@ textarea {
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
-    background: url('img/top-hero-image.jpg') center no-repeat;
+    background-image: url('..img/top-hero-image.jpg');
     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .hero-area h1 {
+    font-size: 2.25em;
+    font-family: 'Poppins', Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    line-height: 1.2;
   }
 
    /* Aside */
@@ -251,7 +268,6 @@ textarea {
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
-    /* width: 83%; */
     background-color: #527158;
   }
 
@@ -283,21 +299,13 @@ textarea {
   /* Features */
 
   .features {
+    background: url('../img/features.jpg');
+    background-size: cover;
+    background-position: center;
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
-    background: url('img/features.jpg') center no-repeat;
-    background-size: cover;
   } 
-
-  .features {
-    display: flex;
-    justify-content: center;
-    flex-flow: row wrap;
-    background: url('../img/features.jpg') center no-repeat;
-    background-size: cover;
-    background-color: #333;
-  }
 
   .features h2 {
     margin-bottom: 60px;
@@ -328,9 +336,8 @@ textarea {
     justify-content: center;
     flex-flow: row wrap;
     background-color: #2a423a;
-    background: url('../img/reviews.jpg') center no-repeat;
-    background-size: cover;
-    background-color: #333;
+    /*background: url('../img/reviews.jpg') center no-repeat;
+    background-size: cover;*/
   }
 
   .reviews h2 {
@@ -497,7 +504,7 @@ textarea {
   }
 
   h2 {
-    font-size: 640px;
+    font-size: 2.25em;
     line-height: 1.333;
   }
 
@@ -536,6 +543,10 @@ textarea {
 
   /* Hero Area */
 
+  .hero-area {
+    min-height: 600px;
+  }
+
   .hero-area h1 {
     font-size: 3em;
     line-height: 1;
@@ -551,7 +562,8 @@ textarea {
     flex-flow: row wrap;
   }
 
-  aside .content-wrapper .form-description, aside .content-wrapper .form {
+  aside .content-wrapper .form-description, 
+  aside .content-wrapper .form {
     width: 40%;
     margin: 0;
   }
@@ -586,6 +598,7 @@ textarea {
     width: 85%;
   }
 
+  .reviews article figure,
   .reviews article div {
     width: 49%;
   }
@@ -666,7 +679,8 @@ textarea {
     width: 100%;
   }
 
-  .faq h4, .faq p {
+  .faq h4, 
+  .faq p {
     font-size: .875em;
     line-height: 1.125;
   }
@@ -688,7 +702,8 @@ textarea {
     font-size: 2.25em;
   }
 
-  h3, h4 {
+  h3, 
+  h4 {
     fornt-size: 1.875em;
   }
 
@@ -709,7 +724,8 @@ textarea {
     justify-content: space-around;
   }
 
-  aside .content-wrapper .form-description, aside .content-wrapper .form {
+  aside .content-wrapper .form-description,
+  aside .content-wrapper .form {
     width: 30%;
   }
 
@@ -743,7 +759,8 @@ textarea {
 
   /* -------------- About Page ------------------------*/
 
-  .mission h2, .contact-section .content-wrapper h2 {
+  .mission h2, 
+  .contact-section .content-wrapper h2 {
    width: 95%;
    font-size: 3em;
   }
