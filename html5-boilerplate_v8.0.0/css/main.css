@@ -248,7 +248,7 @@ textarea {
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
-    background-image: url('..img/top-hero-image.jpg');
+    background-image: url('../img/top-hero-image.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -295,6 +295,7 @@ textarea {
     border: none;
     text-align: center;
     text-transform: uppercase;
+  }
 
   /* Features */
 
