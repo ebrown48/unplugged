@@ -581,7 +581,7 @@ textarea {
 
   aside .content-wrapper .form-description, 
   aside .content-wrapper .form {
-    width: 40%;
+    width: 35%;
     margin: 0;
   }
 
@@ -669,6 +669,10 @@ textarea {
     width: 45%;
   }
 
+  .map figure{
+    padding-bottom: 45.5%;
+  }
+
   .content-section .content-wrapper h2 {
     width: 80%;
   }
@@ -682,6 +686,7 @@ textarea {
   .contact-content h4 {
     font-size: 1.5em;
   }
+
   /* -------------- FAQ Page ------------------------*/
 
   .faq .content-wrapper {
@@ -729,7 +734,6 @@ textarea {
     line-height: 1.333;
   }
   /* Hero */
-
   .hero-area h1 {
     font-size: 3.75em;
     width: 60%;
@@ -743,7 +747,7 @@ textarea {
 
   aside .content-wrapper .form-description,
   aside .content-wrapper .form {
-    width: 30%;
+    width: 40%;
   }
 
   .form-description p {
@@ -776,6 +780,10 @@ textarea {
 
   /* -------------- About Page ------------------------*/
 
+  .map figure{
+    padding-bottom: 37.5%;
+  }
+  
   .mission h2, 
   .contact-section .content-wrapper h2 {
    width: 95%;
