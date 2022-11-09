@@ -188,6 +188,7 @@ textarea {
    header nav {
     font-size: 1.125em;
     font-weight: 700;
+    text-transform: uppercase;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -250,8 +251,8 @@ textarea {
     flex-flow: row wrap;
     background-image: url('../img/top-hero-image.jpg');
     background-size: cover;
-    background-repeat: no-repeat;
     background-position: center;
+    min-height: 500px;
   }
 
   .hero-area h1 {
@@ -322,7 +323,6 @@ textarea {
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
-    /* width: 55%; */
   }
 
   .features p {
@@ -371,6 +371,22 @@ textarea {
 
     .contact-content p {
       margin: 0;
+    }
+
+    .map figure{
+      width: 100%;
+      height: 0;
+      padding-bottom: 125%;
+      overflow: hidden;
+      position: relative;
+    }
+
+    .map iframe{
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top:0;
+      left:0;
     }
 
    /* ----------------FAQ page -------------------------*/
@@ -705,7 +721,7 @@ textarea {
 
   h3, 
   h4 {
-    fornt-size: 1.875em;
+    font-size: 1.875em;
   }
 
   p {
