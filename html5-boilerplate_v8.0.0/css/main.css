@@ -233,7 +233,7 @@ textarea {
    }
 
    footer .social-icons p {
-      background-color: #527158; 
+      /*background-color: #527158;*/ 
       border-radius: 50%;
       width: 40px;
       height: 40px;
