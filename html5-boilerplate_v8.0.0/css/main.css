@@ -105,6 +105,8 @@ textarea {
 
   ul, ol {
     list-style-type: none;
+    margin: 0;
+    padding: 0;
   }
 
   a {
@@ -128,7 +130,7 @@ textarea {
 
   p {
     font-size: .875em;
-    line-height: 1.285;
+    line-height: 1.285em;
   }
 
   img {
@@ -212,7 +214,7 @@ textarea {
      flex-direction: column;
    }
 
-   footer .p {
+   footer p {
     margin: 0;
     
   }
@@ -233,7 +235,7 @@ textarea {
    }
 
    footer .social-icons p {
-      /*background-color: #527158;*/ 
+      background-color: #527158; 
       border-radius: 50%;
       width: 40px;
       height: 40px;
@@ -616,6 +618,10 @@ textarea {
     width: 62%;
   }
 
+  features i {
+    margin-bottom: 30px;
+  }
+
   /* Reviews */
 
   .reviews article {
@@ -657,7 +663,7 @@ textarea {
 
   footer h4 {
     font-size: 1.5em;
-    margin-bottom: 40px
+    margin-bottom: 40px;
   }
 
   footer p {
@@ -684,6 +690,8 @@ textarea {
 
   .mission-content p {
     width: 45%;
+    display: inline-block;
+    margin-right: 2em;
   }
 
   .map figure{
@@ -750,6 +758,7 @@ textarea {
     font-size: 1.125em;
     line-height: 1.333;
   }
+
   /* Hero */
   .hero-area h1 {
     font-size: 3.75em;
@@ -808,7 +817,7 @@ textarea {
   }
 
   .contact-content h4 {
-    font-size: 1875em;
+    font-size: 1.875em;
   }
 
   /* -------------- FAQ Page ------------------------*/
